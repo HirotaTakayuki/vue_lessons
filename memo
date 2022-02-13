@@ -1,0 +1,80 @@
+Vue.js3
+
+https://www.shuwasystem.co.jp/support/7980html/6373.html
+
+mac docker
+https://zenn.dev/tet0h/articles/docker-vuejs
+
+project
+├── docker
+│   └── web
+│       └── Dockerfile
+├── docker-compose.yml
+└── server
+
+Docker起動してコンテナに入る
+# Docker構築&起動
+docker-compose up -d
+
+# コンテナに入る
+docker-compose exec web sh
+
+# 環境設定
+npm run dev
+
+http://0.0.0.0:9000/ 
+
+# エラー
+version update
+#1 解決方法
+npm install -g npm@8.5.0
+
+
+
+git
+
+echo "# vue_lessons" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/HirotaTakayuki/vue_lessons.git
+git push -u origin main
+
+
+
+
+
+token
+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
+
+DockerでReact+Typescript環境を作る
+https://qiita.com/Aquahyper/items/85fa9ccf4a4b3549b47c
+
+https://qiita.com/greenteabiscuit/items/c40ba038703c9f33499b
+
+
+
+Docker-ts
+　├ dockerfile
+　└ docker-compose.yml
+
+docker-compose build
+
+docker-compose run --rm node sh -c 'npx create-react-app sample-project --template typescript'
+
+https://ja.reactjs.org/
+
+参考ポートフォリオ
+https://qiita.com/tanosugi/items/41cdefa4ecd5c146cc56
+
+https://github.com/tanosugi/public_panta_watch
+
+1.『日本一わかりやすいReact入門』シリーズ
+2. 『日本一わかりやすいReact入門【実践編】』シリーズ
+3. 『日本一わかりやすいReact-Redux入門』シリーズ
+https://www.youtube.com/watch?v=Otrc2zAlJyM&list=PLX8Rsrpnn3IWKz6H5ZEPWBY8AKWwb9qq7
+
+
+
+
